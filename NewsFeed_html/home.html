@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NewsFeed</title>
+    <title>meFavor</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -81,7 +81,7 @@
               </a> 
             </div>
             <div class="add_banner">
-              <a href="#"><img src="img/addbanner_728x90_V1.jpg1" alt="img"></a>
+              <a href="#"><img src="img/addbanner_728x90_V1.jpg" alt="img"></a>
             </div>
           </div>
         </div>
@@ -102,21 +102,21 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav main_nav">
             <li class="active"><a href="home.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
-            <li><a href="#">Technology</a></li>            
+            <li><a href="#">Assign Work</a></li>            
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mobile</a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">See Work History</a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Android</a></li>
-                <li><a href="#">Samsung</a></li>
-                <li><a href="#">Nokia</a></li>
-                <li><a href="#">Walton Mobile</a></li>
-                <li><a href="#">Sympony</a></li>               
+                <li><a href="#">From yesterday</a></li>
+                <li><a href="#">From Last week</a></li>
+                <li><a href="#">From Last Month</a></li>
+                <li><a href="#">From Last year</a></li>
+                <li><a href="#">All history</a></li>               
               </ul>
             </li>
-            <li><a href="#">Laptops</a></li> 
-            <li><a href="#">Tablets</a></li> 
+            <li><a href="#">Assigned to me</a></li> 
+            <li><a href="#">do some stuff</a></li> 
             <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="404.html">404 Page</a></li>
+            <li><a href="404.html">profile</a></li>
           </ul>           
         </div><!--/.nav-collapse -->      
       </nav>
@@ -191,10 +191,47 @@
               </div>
             </div>
           </div> -->
+           <form role="form">
+ <div class="form-group">
+  <label for="usr">Work Description:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+  <div class="form-group">
+    <label for="pwd">Start Location:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+
+
+  <div class="form-group">
+    <label for="pwd">End Location:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+
+<div class="form-group">
+    <label for="email">Amount:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+
+  <div class="form-group">
+    <label for="email">Deadline:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+
+  <div class="checkbox">
+    <label><input type="checkbox"> Negotiable data and time </label>
+  </div>
+
+
+  <div class="checkbox">
+    <label><input type="checkbox"> Negotiable Rate </label>
+  </div>
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
           <div class="latest_post">
-            <h2><span>Latest post</span></h2>
+            <h2><span>News feed as a assigner</span></h2>
             <div class="latest_post_container">
               <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
               <ul class="latest_postnav">
@@ -265,23 +302,63 @@
         <div class="col-lg-8 col-md-8 col-sm-8">
           <div class="left_content">
             <div class="single_post_content">
-              <h2><span>Business</span></h2>
-              <div class="single_post_content_left">
-                <ul class="business_catgnav  wow fadeInDown">
-                  <li>
-                    <figure class="bsbig_fig">
-                      <a href="single_page.html" class="featured_img">
-                          <img alt="img" src="img/featured_img1.jpg">
-                          <span class="overlay"></span>
-                      </a>
-                      <figcaption>
-                        <a href="single_page.html">Proin rhoncus consequat nisl eu ornare mauris</a>
-                      </figcaption>
-                        <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a phare...</p>
-                    </figure>
-                  </li>
-                </ul>
-              </div>
+              <h2><span>News Feed as Driver</span></h2>
+              <div class="latest_post_container">
+              <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
+              <ul class="latest_postnav">
+                <li>
+                  <div class="media">
+                    <a href="single_page.html" class="media-left">
+                      <img alt="img" src="img/user7.png">
+                    </a>
+                    <div class="media-body">
+                      <a href="single_page.html" class="catg_title"> Ravi requested for task requested by Ashesh</a>                        
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media">
+                    <a href="single_page.html" class="media-left">
+                      <img alt="img" src="img/user6.png">
+                    </a>
+                    <div class="media-body">
+                      <a href="single_page.html" class="catg_title"> Hariom asked to complete task requested by Abhishek</a>                        
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media">
+                    <a href="single_page.html" class="media-left">
+                      <img alt="img" src="img/user5.png">
+                    </a>
+                    <div class="media-body">
+                      <a href="single_page.html" class="catg_title"> Prabhat confirmed to complete the task raised by Anjali</a>                        
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media">
+                    <a href="single_page.html" class="media-left">
+                      <img alt="img" src="img/user1.png">
+                    </a>
+                    <div class="media-body">
+                      <a href="single_page.html" class="catg_title"> Arvind completed the assigned task</a>                        
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media">
+                    <a href="single_page.html" class="media-left">
+                      <img alt="img" src="img/user.png">
+                    </a>
+                    <div class="media-body">
+                      <a href="single_page.html" class="catg_title"> Rubi completed the task </a>                        
+                    </div>
+                  </div>
+                </li>
+              </ul>
+             <div id="next-button"><i class="fa  fa-chevron-down"></i></div>
+            </div>
               <div class="single_post_content_right">
                 <ul class="spost_nav">
                   <li>
@@ -773,7 +850,7 @@
       </div>       
       <div class="footer_bottom">
         <p class="copyright">
-          All Rights Reserved <a href="home.html">NewsFeed</a>
+          All Rights Reserved <a href="home.html">meFavor</a>
         </p>
         <p class="developer">Developed By <a href="http://wpfreeware.com" rel="nofollow">Wpfreeware</a></p>
       </div>    
