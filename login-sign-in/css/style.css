@@ -26,10 +26,10 @@ html {
   display: block;
   background: #FFF;
   position: relative;
-  max-width: 550px;
+  max-width: 850px;
   border-radius: 4px;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
-  margin: 120px auto;
+  margin: 80px auto;
 }
 .logmod__close {
   display: block;
